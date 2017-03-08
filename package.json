@@ -1,0 +1,24 @@
+{
+  "name": "cordlr-server-boilerplate",
+  "version": "1.0.0",
+  "description": "Faster Server Creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devcord/cordlr-server-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devcord/cordlr-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Devcord/cordlr-server-boilerplate#readme",
+  "dependencies": {
+    "cordlr-clear": "^0.1.0",
+    "cordlr-help": "^1.2.0",
+    "cordlr-uptime": "^0.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "token": "Add your token here",
+  "prefix": "!",
+  "plugins": [
+    "cordlr-help",
+    "cordlr-clear",
+    "cordlr-uptime"
+  ]
+}
