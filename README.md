@@ -10,7 +10,7 @@ Clone this repository or download the zip file to your computer and put it into 
 
 ## Configuration
 
-Open the **cordlr.json** and add your bot token so your bot can actually login. You can retrieve your bots token from the [Discord API](https://discordapp.com/developers/applications/me).
+Open the **cordlr.example.json** and add your bot token so your bot can actually login. You can retrieve your bots token from the [Discord API](https://discordapp.com/developers/applications/me). Save the file as **cordlr.json**
 
 * **token**: Your bot token. Is used to authenticate the bot
 * **prefix**: The bot prefix which will trigger your bot. `!` by default
