@@ -1,6 +1,6 @@
 {
   "name": "cordlr-server-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Faster Server Creation",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/Devcord/cordlr-server-boilerplate#readme",
   "dependencies": {
-    "cordlr-clear": "^0.1.0",
-    "cordlr-help": "^1.2.0",
-    "cordlr-uptime": "^0.2.0"
+
   }
 }

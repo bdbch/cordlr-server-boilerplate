@@ -1,0 +1,8 @@
+{
+  "token":"Add your bot token",
+  "prefix":"!",
+  "plugins":[
+    
+  ],
+  "loader":"cordlr-loader"
+}
