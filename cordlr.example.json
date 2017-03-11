@@ -2,7 +2,7 @@
   "token":"Add your bot token",
   "prefix":"!",
   "plugins":[
-    
+    "cordlr-pinga"    
   ],
   "loader":"cordlr-loader"
 }
