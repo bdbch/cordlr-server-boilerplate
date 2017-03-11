@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Devcord/cordlr-server-boilerplate#readme",
   "dependencies": {
-
+    "cordlr-pinga": "^0.0.3",
+    "cordlr-plugin": "0.0.1"
   }
 }
