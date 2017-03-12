@@ -4,7 +4,7 @@
   "loader":"cordlr-loader",
   "plugins":[
     "cordlr-pinga",
-    "cordlr-help",
+    "cordlr-help2",
     "cordlr-kontrolla"
     ]
   }
