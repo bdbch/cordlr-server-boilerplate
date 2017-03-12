@@ -1,8 +1,10 @@
 {
-  "token":"Add your bot token",
+  "token":"YouTokenHere",
   "prefix":"!",
+  "loader":"cordlr-loader",
   "plugins":[
-    "cordlr-pinga"    
-  ],
-  "loader":"cordlr-loader"
-}
+    "cordlr-pinga",
+    "cordlr-help2",
+    "cordlr-kontrolla"
+    ]
+  }

@@ -4,6 +4,7 @@
   "description": "Faster Server Creation",
   "main": "index.js",
   "scripts": {
+    "start": "cordlr-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/Devcord/cordlr-server-boilerplate#readme",
   "dependencies": {
+    "cordlr-cli": "^0.3.1",
     "cordlr-kontrolla": "~1.0.0",
-    "cordlr-pinga": "~0.0.3"
+    "cordlr-loader": "^0.1.7",
+    "cordlr-pinga": "0.0.5",
+    "cordlr-help2": "1.0.0"
   }
 }
