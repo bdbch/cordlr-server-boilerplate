@@ -8,6 +8,9 @@ You can use this boilerplate to setup a server without setting up the configurat
 
 Clone this repository or download the zip file to your computer and put it into a specific folder, for example `~/discord-server`. Change into the new server and run `npm install` *(Make sure to use Node.js 6+)* to install the cordlr packages. After NPM installed the packages you are ready to configure your bot.
 
+1) `npm install`
+2) `npm start`
+
 ## Configuration
 
 Open the **cordlr.example.json** and add your bot token so your bot can actually login. You can retrieve your bots token from the [Discord API](https://discordapp.com/developers/applications/me). Save the file as **cordlr.json**
@@ -23,9 +26,9 @@ Open the **cordlr.example.json** and add your bot token so your bot can actually
 
 By default the following plugins are installed:
 
-* **cordlr-help**: Lists all available commands with arguments and explanations
-* **cordlr-uptime**: Shows the servers uptime
-* **cordlr-clear**: Clears the last x messages. Can only be used by moderators. The bot needs moderation rights.
+* **cordlr-help2**: Lists all commands with usage info and descriptions
+* **cordlr-kontrolla**: Bot controller for changing bot avatar, username, game and status
+* **corld-pinga**: Simple demo plugin for Cordlr giving the option to send pings to a hostname
 
 ## Contribute
 
