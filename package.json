@@ -1,7 +1,7 @@
 {
   "name": "cordlr-server-boilerplate",
-  "version": "1.0.1",
-  "description": "Faster Server Creation",
+  "version": "1.1.0",
+  "description": "A quick boilerplate for Cordlr Discord bots.",
   "main": "index.js",
   "scripts": {
     "start": "cordlr-cli",
@@ -12,16 +12,18 @@
     "url": "git+https://github.com/Devcord/cordlr-server-boilerplate.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Devcord/cordlr-server-boilerplate/issues"
   },
   "homepage": "https://github.com/Devcord/cordlr-server-boilerplate#readme",
   "dependencies": {
     "cordlr-cli": "^0.3.1",
-    "cordlr-kontrolla": "~1.0.0",
+    "cordlr-ddg": "^0.0.1",
+    "cordlr-giphy": "^1.0.4",
+    "cordlr-help2": "^1.0.0",
+    "cordlr-kontrolla": "^1.0.0",
     "cordlr-loader": "^0.1.7",
-    "cordlr-pinga": "0.0.5",
-    "cordlr-help2": "1.0.0"
+    "cordlr-roles": "^1.0.0"
   }
 }

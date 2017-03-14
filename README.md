@@ -26,9 +26,11 @@ Open the **cordlr.example.json** and add your bot token so your bot can actually
 
 By default the following plugins are installed:
 
-* **cordlr-help2**: Lists all commands with usage info and descriptions
-* **cordlr-kontrolla**: Bot controller for changing bot avatar, username, game and status
-* **corld-pinga**: Simple demo plugin for Cordlr giving the option to send pings to a hostname
+* **cordlr-help2**: Lists all commands & plugins with usage info and descriptions using **!help** or **!plugins**
+* **cordlr-ddg**: DuckDuckGo package allows searching for topics and use of DDG !bangs via **!ddg <search>**
+* **cordlr-giphy**: Retrieves a random giphy via **!giphy** or **!giphy <tag>**
+* **cordlr-roles**: Allows users to manually join certain, whitelisted roles via **!addrole <role>**, **!removerole <role>** and **!roles**
+* **cordlr-kontrolla**: Administrator tool to control the bot (change avatar, game and username)
 
 ## Contribute
 

@@ -1,10 +1,16 @@
 {
-  "token":"YouTokenHere",
+  "token":"Your BotToken Here",
   "prefix":"!",
   "loader":"cordlr-loader",
-  "plugins":[
-    "cordlr-pinga",
+  "plugins": [
     "cordlr-help2",
-    "cordlr-kontrolla"
+    "cordlr-roles",
+    "cordlr-giphy",
+    "cordlr-ddg"
+  ],
+  "cordlr-roles": {
+    "whitelist": [
+      "Add your role name here"
     ]
   }
+}
