@@ -14,8 +14,8 @@ Clone this repository or download the zip file to your computer and put it into 
 3) Add bot to your Discord server ([Discord Docs](https://discordapp.com/developers/docs/topics/oauth2#adding-bots-to-guilds))
     * Go to [Discord API](https://discordapp.com/developers/applications/me) and open what you just created in **Configuration**
     * Get your **Client ID**
-    * `https://discordapp.com/api/oauth2/authorize?client_id=` <**`Your Client ID`**> `&scope=bot&permissions=0`
-    * (Example: `https://discordapp.com/api/oauth2/authorize?client_id=157730590492196864&scope=bot&permissions=0`)
+    * `https://discordapp.com/api/oauth2/authorize?client_id=`**`Client-ID`**`&scope=bot&permissions=0`
+    * (Example: `client_id=157730590492196864`)
 
 ## Configuration
 
