@@ -8,8 +8,13 @@ You can use this boilerplate to setup a server without setting up the configurat
 
 Clone this repository or download the zip file to your computer and put it into a specific folder, for example `~/discord-server`. Change into the new server and run `npm install` *(Make sure to use Node.js 6+)* to install the cordlr packages. After NPM installed the packages you are ready to configure your bot.
 
-1) `npm install`
-2) `npm start`
+1) Do `npm install` in terminal
+2) Configure your `cordlr.json` file (Read **Configuration** below)
+4) Do `npm start` in terminal
+3) Add bot to your Discord server ([Discord Docs](https://discordapp.com/developers/docs/topics/oauth2#adding-bots-to-guilds))
+    * Go to [Discord API](https://discordapp.com/developers/applications/me) and open what you just created in **Configuration**
+    * Get your **Client ID**
+    * https://discordapp.com/api/oauth2/authorize?client_id=**`<Your Client ID>`**&scope=bot&permissions=0
 
 ## Configuration
 
